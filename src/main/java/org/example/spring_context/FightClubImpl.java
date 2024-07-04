@@ -1,6 +1,8 @@
 package org.example.spring_context;
 
+@PureTransactional
 public class FightClubImpl implements FightClub {
+
     private CombatCat loriCat;
     private CombatCat baxterCat;
     public void setLoriCat(final CombatCat loriCat) {
